@@ -27,11 +27,12 @@
       "expo-router",
       [
         "expo-splash-screen",
-        {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/appIcon.png",
-          "imageWidth": 76
-        }
+          {
+            "backgroundColor": "#FFFFFF",
+            "image": "./assets/images/appIcon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain"
+          }
       ]
     ],
     "experiments": {
